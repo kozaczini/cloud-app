@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: cloud-frontend
+    ports:
+      - "8080:80"
+    networks:
+      - cloud-network
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    container_name: cloud-backend
+    ports:
+      - "8081:8080"
+    environment:
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__DefaultConnection=Server=cloud-db;Database=CloudAppDb;User Id=sa;Password=StrongPassword123!;TrustServerCertificate=True
+    networks:
+      - cloud-network
+    depends_on:
+      - cloud-db
+
+  cloud-db:
+    image: mcr.microsoft.com/azure-sql-edge
+    container_name: cloud-db
+    environment:
+      SA_PASSWORD: "StrongPassword123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - cloud-network
+
+networks:
+  cloud-network:
+    driver: bridge
+
+volumes:
+  sql_data:
