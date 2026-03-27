@@ -1,4 +1,4 @@
-# Cloud Task Manager - by Łukasz Smyła
+# Cloud Task Manager - by Jakub Kozak
  
 Projekt natywnej aplikacji chmurowej realizowany w architekturze 3-warstwowej.
  

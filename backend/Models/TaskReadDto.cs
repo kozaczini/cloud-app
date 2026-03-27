@@ -1,6 +1,4 @@
-namespace CloudBackend.Models;
-
-public class CloudTask
+public class TaskReadDto
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
