@@ -5163,6 +5163,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.13",
+      "Microsoft.CodeAnalysis.Analyzers >= 3.3.4",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
@@ -5170,19 +5171,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student-wroclaw\\.nuget\\packages\\": {}
+    "C:\\Users\\Kozakovv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student-wroclaw\\cloud-app\\backend\\CloudBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Kozakovv\\cloud-app\\backend\\CloudBackend.csproj",
       "projectName": "CloudBackend",
-      "projectPath": "C:\\Users\\student-wroclaw\\cloud-app\\backend\\CloudBackend.csproj",
-      "packagesPath": "C:\\Users\\student-wroclaw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student-wroclaw\\cloud-app\\backend\\obj\\",
+      "projectPath": "C:\\Users\\Kozakovv\\cloud-app\\backend\\CloudBackend.csproj",
+      "packagesPath": "C:\\Users\\Kozakovv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kozakovv\\cloud-app\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\student-wroclaw\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kozakovv\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -5215,6 +5216,11 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.13, )"
+          },
+          "Microsoft.CodeAnalysis.Analyzers": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.3.4, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
