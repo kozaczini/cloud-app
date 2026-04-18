@@ -521,3 +521,11 @@ C:\Users\Kozakovv\cloud-app\backend\obj\Debug\net9.0\refint\CloudBackend.dll
 C:\Users\Kozakovv\cloud-app\backend\obj\Debug\net9.0\CloudBackend.pdb
 C:\Users\Kozakovv\cloud-app\backend\obj\Debug\net9.0\CloudBackend.genruntimeconfig.cache
 C:\Users\Kozakovv\cloud-app\backend\obj\Debug\net9.0\ref\CloudBackend.dll
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\web.config
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\appsettings.Development.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\appsettings.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\CloudBackend.deps.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\CloudBackend.runtimeconfig.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\CloudBackend.staticwebassets.endpoints.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\package-lock.json
+C:\Users\Kozakovv\cloud-app\backend\bin\Debug\net9.0\publish\publish\package.json
