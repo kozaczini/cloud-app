@@ -19,6 +19,6 @@ Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Servic
 * [x] **Artefakt 5:** System gotowy na chmure.
 * [x] **Artefakt 6:** Backend i frontend dzialajcy z azure.
 * [x] **Artefakt 7:** Usunięcie haseł i przejście na magazyn kluczy.
-* [x] **Artefakt 7:** Dokumentacja API, mechanizm usuwania zadania.
+* [x] **Artefakt 8:** Dokumentacja API, mechanizm usuwania zadania.
  
 > **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).
